@@ -112,6 +112,7 @@ function responsiveTwitterWidget(){
     function unStick() {
         sidebar.classList.remove('stick')
         content.classList.remove('offset-by-four')
+        console.log("test2")
     }
 
     function isStickable() {
