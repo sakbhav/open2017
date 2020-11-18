@@ -116,6 +116,7 @@ function responsiveTwitterWidget(){
 
     function isStickable() {
         return browserWidth > WIDTH_BRAKE_POINT;
+        console.log("test");
     }
 
 })()
